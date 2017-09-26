@@ -1,0 +1,257 @@
+/**********************
+GENERAL
+**********************/
+
+body {
+  font-family: 'Open Sans', sans-serif; 
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*h3 {
+  margin: 0 0 1em 0;
+}*/
+
+/**********************
+HEADING
+**********************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+
+}
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+  margin: 15 px 0;
+  font-size: 3.75em;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal; 
+}
+
+h3 {
+  font-family: 'Dosis', sans-serif;
+  margin: 15 px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+
+}
+
+/**********************
+NAVIGATION
+**********************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 600;
+  padding: 15px 10px;
+}
+
+/**********************
+FOOTER
+**********************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+/**********************
+PAGE: HOME
+**********************/
+
+
+
+/**********************
+PAGE: BIOGRAPHY
+**********************/
+
+.profile-photo {
+  display: block;
+}
+
+/**********************
+PAGE: RESUME
+**********************/
+
+/**********************
+PAGE: CODEPEN
+**********************/
+
+.container {
+  position: relative;
+}
+
+.image {
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 64.5;
+  opacity: 0;
+  background-color: #3F3250;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #E14658;
+  font-size: 20px;
+  text-align: center;
+}
+
+/**********************
+PAGE: GALLERY
+**********************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #C0B3A0;
+  color: #E14658;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #E14658
+}
+
+/**********************
+PAGE: CONTACT
+**********************/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png'); /*Icon made by Freepik from https://www.flaticon.com/free-icon/phone-call_121941 */
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/email.png'); /*Icon made by Freepik from https://www.flaticon.com/free-icon/email_121923 */
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png'); /*Icon made by Freepik from https://www.flaticon.com/free-icon/twitter_152809 */
+}
+
+
+/**********************
+COLORS
+**********************/
+
+/* Site Body */
+body {
+  background-color: #E9E7DA;
+  color: #22252C;
+}
+
+/* Green Header */
+header {
+  background: #3F3250;
+  border-color: #22252C;
+}
+
+/* Logo Text */
+h1, h2 {
+  color: #fff;
+}
+
+/* Links */
+a {
+  color: #6ab47b;
+}
+
+/* Nav Background on Mobile */
+nav {
+  background: #22252C;
+}
+
+/* Nav Links */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* Selected Nav Links */
+nav a.selected, nav a:hover {
+  color: #E14658;
+}
